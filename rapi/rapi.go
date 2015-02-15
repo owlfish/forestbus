@@ -76,9 +76,9 @@ type ReceiveMessagesArgs struct {
 }
 
 type ReceiveMessagesResults struct {
-	Result            ResultInfo
-	ReceievedMessages [][]byte
-	NextID            int64
+	Result           ResultInfo
+	ReceivedMessages [][]byte
+	NextID           int64
 }
 
 type GetClusterDetailsArgs struct {

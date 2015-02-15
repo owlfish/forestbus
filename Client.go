@@ -184,7 +184,7 @@ func (client *Client) GetMessages(topic string, index int64, quantity int, wait 
 				}
 				switch reply.Result.Code {
 				case rapi.RI_SUCCESS:
-					return reply.ReceievedMessages, reply.NextID, nil
+					return reply.ReceivedMessages, reply.NextID, nil
 				case rapi.RI_TOPIC_NOT_FOUND:
 					return nil, 0, ErrTopicNotFound
 				}
