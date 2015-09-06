@@ -8,7 +8,7 @@ package forestbus
 import (
 	"errors"
 	//"github.com/ugorji/go/codec"
-	"code.google.com/p/forestbus/rapi"
+	"github.com/owlfish/forestbus/rapi"
 	"log"
 	"math/rand"
 	"net"
